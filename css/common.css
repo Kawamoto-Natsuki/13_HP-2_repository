@@ -26,12 +26,12 @@ li {
   list-style: none;
 }
 
-.section{
-  padding-bottom:15%;
+.section {
+  padding-bottom: 15%;
 }
 
 .section:nth-of-type(odd) {
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
 }
 
 .section_ttl {
@@ -53,7 +53,6 @@ li {
   text-align: center;
   border-top: solid 3px #5b8fad;
 }
-
 
 header {
   width: 100%;
@@ -126,5 +125,39 @@ header .drawer {
 
 .arrow {
   float: right;
-  padding:5% 10% 0 0;
+  padding: 5% 10% 0 0;
+}
+
+.service_wrap {
+  width: 90%;
+  margin:0 auto;
+}
+
+.service_item {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content:center;
+  background-color: #fff;
+  box-shadow: 4px 4px 8px 4px rgba(0,0,0,.1);
+  justify-content: right;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.service_item .service_item_img {
+  width: 25%;
+  padding-left: 16px;
+}
+
+.service_item .service_item_img img {
+  width: 100%;
+  height: auto;
+}
+
+.service_wrap .service_item p {
+  width: 65%;
+  margin-left: 30px;
+  font-size: 20px;
+  line-height: 1.8em;
 }
