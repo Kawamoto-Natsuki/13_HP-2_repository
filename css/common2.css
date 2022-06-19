@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.breadcrumb {
+  max-width: 90%;
+  margin: 40px auto;
+}
+
+.breadcrumb ul {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.breadcrumb li {
+  font-size: 20px;
+}
+
+.breadcrumb li::after {
+  content: ">";
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.breadcrumb li:last-child::after {
+  content: "";
+}
+
+.color {
+  color: #5B8FAD;
+  font-weight: 700;
+}
+
