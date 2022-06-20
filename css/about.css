@@ -2,7 +2,7 @@
 .about_com {
   width: 90%;
   margin-bottom: 200px;
-  padding-left:5%;
+  padding-left: 5%;
 }
 
 .about_com .section_ttl {
@@ -41,9 +41,9 @@
   margin-bottom: 200px;
 }
 
-.about_mem .inner{
+.about_mem .inner {
   width: 70%;
-  padding-left:15%;
+  padding-left: 15%;
   display: inline-block;
   justify-content: center;
 }
@@ -58,7 +58,6 @@
   border: solid 2px #ddd;
   -webkit-box-shadow: 20px 20px 30px #ddd;
   box-shadow: 20px 20px 30px #ddd;
-  
 }
 
 .about_mem_per {
@@ -90,4 +89,46 @@
 .about_mem_txt {
   font-size: 18px;
   line-height: 1.8;
+}
+
+.about_acc {
+  margin-bottom: 150px;
+  padding: 0 20px;
+}
+
+.about_acc .section_ttl {
+  margin-bottom: 80px;
+}
+
+.about_acc_map {
+  width: 55%;
+  height: 350px;
+  -webkit-clip-path: polygon(0% 0%, 0% 400%, 100% 0%);
+  clip-path: polygon(0% 0%, 0% 400%, 100% 0%);
+}
+
+.about_acc_map iframe {
+  width: 100%;
+  height: 100%;
+  margin-left: 8%;
+}
+
+.acc_wrap {
+  position: relative;
+}
+
+.about_acc_list {
+  position: absolute;
+  top: 0%;
+  left: 60%;
+}
+
+.about_acc_item {
+  margin-bottom: 40px;
+  line-height: 1.5em;
+}
+
+.about_acc_ttl {
+  margin-bottom: 10px;
+  font-size: 23px;
 }
