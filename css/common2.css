@@ -28,3 +28,6 @@
   font-weight: 700;
 }
 
+.section_border-none small{
+  border-top: solid 0;
+}
