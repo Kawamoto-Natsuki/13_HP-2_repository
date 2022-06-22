@@ -118,3 +118,52 @@
     padding: 0 0 10px;
   }
 }
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {
+
+  .inner {
+    max-width: 95%;
+  }
+
+    .service_item._service2,
+.service_item._service3,
+.service_item._service4 {
+  bottom: 0;
+  margin: 0 auto 10%;
+}
+
+.intro {
+  width: 100%;
+}
+
+.intro_txt {
+  margin-bottom: 50px;
+}
+
+.about_sub_ttl {
+  padding-top: 20px;
+}
+
+.about_wrap {
+  padding-left: 0;
+  flex-direction: column-reverse;
+}
+
+.about_img {
+  margin: 40px auto;
+}
+}
+
+@media (max-width: 480px) and (min-width:1px){
+  .service_item {
+    width: 100%;
+    margin: 0 0 10%;
+    height: auto;
+  }
+  
+  .service_inner_txt {
+    left: 46%;
+  }
+}

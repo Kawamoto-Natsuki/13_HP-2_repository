@@ -156,3 +156,16 @@
     right: -5%;
   }
 }
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) and (min-width: 481px){
+
+  .inner {
+    max-width: 95%;
+  }
+
+  .feature_all{
+    margin-left: 5%;
+  }
+}
